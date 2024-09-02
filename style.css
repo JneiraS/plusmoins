@@ -1,48 +1,46 @@
 body {
-    background-color: #2d4558;
-    color: #ccc;
-    font-family: monospace;
-    text-align: center;
-  }
-  
-  #tentatives {
-    font-size: 2em;
-    margin-top: 10%;
-  }
+  background-color: #2d4558;
+  color: #ccc;
+  font-family: monospace;
+  text-align: center;
+}
 
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10%;
-    
-  }
-  
-  .button {
-    background-color: #3184a5;
-    color: white;
-    border: solid 2px #4792af;
-    bottom: 300px;
-    
+#tentatives {
+  font-size: 2em;
+  margin-top: 10%;
+}
 
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 2em;
-    margin: 4px 2px;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 400px;
-    height: 100px;
-    margin-right: 20px;
-  }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
 
-  .button:hover {
-    background-color: #479faf;
-  }
+.button {
+  background-color: #3184a5;
+  color: white;
+  border: solid 2px #4792af;
+  bottom: 300px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2em;
+  margin: 4px 2px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 400px;
+  height: 100px;
+  margin-right: 20px;
+  transition: all 0.3s ease;
+}
 
-    .button:active {
-        background-color: #4cb9bd;
-        transform: translateY(2px);
-    }
+.button:hover {
+  background-color: #479faf;
+}
+
+.button:active {
+  background-color: #4cb9bd;
+  transform: translateY(2px);
+}
