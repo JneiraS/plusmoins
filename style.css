@@ -1,29 +1,39 @@
 body {
-    background-color: #d43b3b;
+    background-color: #2d4558;
     color: #ccc;
     font-family: monospace;
     text-align: center;
   }
   
+  #tentatives {
+    font-size: 2em;
+    margin-top: 10%;
+  }
+
   .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 10%;
+    
   }
   
   .button {
-    background-color: #007bff;
+    background-color: #3184a5;
     color: white;
-    border: none;
+    border: solid 2px #4792af;
+    bottom: 300px;
+
+
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 2em;
     margin: 4px 2px;
     border-radius: 4px;
     cursor: pointer;
-    width: 150px;
+    width: 400px;
+    height: 100px;
     margin-right: 20px;
   }
