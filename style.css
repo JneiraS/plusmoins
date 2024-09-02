@@ -23,7 +23,7 @@ body {
     color: white;
     border: solid 2px #4792af;
     bottom: 300px;
-
+    
 
     padding: 10px 20px;
     text-align: center;
@@ -37,3 +37,12 @@ body {
     height: 100px;
     margin-right: 20px;
   }
+
+  .button:hover {
+    background-color: #479faf;
+  }
+
+    .button:active {
+        background-color: #4cb9bd;
+        transform: translateY(2px);
+    }
