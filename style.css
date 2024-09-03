@@ -1,4 +1,3 @@
-/* General body styling */
 body {
   display: flex;
   justify-content: center;
@@ -9,12 +8,10 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Container for the card with perspective to enable 3D effect */
 .card-container {
   perspective: 1000px;
 }
 
-/* Styling the card with 3D rotation */
 .card {
   width: 300px;
   height: 350px;
@@ -24,13 +21,12 @@ body {
   transform-origin: center;
 }
 
-/* Flip the card on hover */
 .card-container:hover .card {
   transform: rotateY(180deg);
 }
 
-/* Front and back face styling */
-.card-front, .card-back {
+.card-front,
+.card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -43,22 +39,19 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Styling the front side of the card */
 .card-front {
   background-color: #e76f51;
   color: #dbdbd9;
-  border:#f0f0f056 solid 1px;
+  border: #f0f0f056 solid 1px;
 }
 
-/* Styling the back side of the card */
 .card-back {
   background-color: #f4a261;
   color: #264653;
-  border:#f0f0f056 solid 1px;
+  border: #f0f0f056 solid 1px;
   transform: rotateY(180deg);
 }
 
-/* Proposal container styling */
 .proposal_container {
   margin-bottom: 20px;
   text-align: center;
@@ -70,7 +63,6 @@ body {
 
 #proposal {
   font-size: 34px;
-
 }
 
 .proposal_container p {
@@ -78,7 +70,6 @@ body {
   font-size: 18px;
 }
 
-/* Tentatives container styling */
 .tentatives-container {
   margin-bottom: 20px;
   text-align: center;
@@ -90,16 +81,12 @@ body {
   font-size: 18px;
 }
 
-
-
-/* Button container styling */
 .btn-container {
   display: flex;
   justify-content: center;
   gap: 20px;
 }
 
-/* Button styling */
 .button {
   position: relative;
   top: 10px;
@@ -109,7 +96,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
   background-color: #2a9d8f;
-  border:#fafafac5 solid 1px;
+  border: #fafafac5 solid 1px;
   color: #f0f0f0;
   transition: background-color 0.3s ease-in-out;
 }
