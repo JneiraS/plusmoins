@@ -26,9 +26,16 @@ function trouverDeuxiemeNombreLePlusPetit(liste) {
   }
 }
 
+/**
+ * Returns a random number between min and max (inclusive)
+ * @param {number} min The minimum of the range
+ * @param {number} max The maximum of the range
+ * @returns {number} A random number between min and max
+ */
 function getRandomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
 
 document.addEventListener("DOMContentLoaded", function() {
   const proposalElement = document.getElementById("proposal");
