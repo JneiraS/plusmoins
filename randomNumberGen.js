@@ -1,3 +1,4 @@
+
 function trouverDeuxiemeNombreLePlusGrand(liste) {
     // Triez la liste en ordre décroissant
     liste.sort((a, b) => b - a);
