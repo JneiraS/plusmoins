@@ -47,12 +47,14 @@ body {
 .card-front {
   background-color: #e76f51;
   color: #dbdbd9;
+  border:#f0f0f056 solid 1px;
 }
 
 /* Styling the back side of the card */
 .card-back {
   background-color: #f4a261;
   color: #264653;
+  border:#f0f0f056 solid 1px;
   transform: rotateY(180deg);
 }
 
@@ -63,7 +65,16 @@ body {
 }
 
 .proposal_container p {
-  margin: 5px 0;
+  font-weight: 600;
+}
+
+#proposal {
+  font-size: 34px;
+
+}
+
+.proposal_container p {
+  margin-top: 25px;
   font-size: 18px;
 }
 
@@ -79,6 +90,8 @@ body {
   font-size: 18px;
 }
 
+
+
 /* Button container styling */
 .btn-container {
   display: flex;
@@ -88,12 +101,15 @@ body {
 
 /* Button styling */
 .button {
+  position: relative;
+  top: 10px;
   padding: 10px 20px;
   font-size: 16px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   background-color: #2a9d8f;
+  border:#fafafac5 solid 1px;
   color: #f0f0f0;
   transition: background-color 0.3s ease-in-out;
 }
