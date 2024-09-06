@@ -17,7 +17,7 @@ function calculerMoyenne(liste) {
  * @returns {number} Le deuxième plus grand nombre de la liste, ou 100 si la liste contient moins de 2 éléments
  */
 function trouverDeuxiemeNombreLePlusGrand(liste) {
-  // Sort the list in descending order
+  // Trier la liste par ordre décroissant
   liste.sort((a, b) => b - a);
   
 
